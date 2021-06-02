@@ -23,7 +23,7 @@
     "type": "git",
     "url": "git+https://github.com/${username}/${package-name}.git"
   },
-  "author": "zhangziheng",
+  "author": "${author-name}",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/${username}/${package-name}/issues"
@@ -31,8 +31,7 @@
   "homepage": "https://github.com/${username}/${package-name}#readme",
   "publishConfig": {
     "access": "public",
-    "registry": "https://registry.npmjs.org",
-    "tag": "alpha"
+    "registry": "https://registry.npmjs.org"
   },
   "devDependencies": {
     "@microsoft/api-extractor": "^7.14.0",
